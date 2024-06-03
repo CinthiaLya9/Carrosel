@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Botão preview (Voltar)-->
+    <div class="container">
+        <a class="prev" href="#" onclick="addSlides(-1)">
+            <span>❮</span>
+            <span class="prev-text">Voltar</span>
+        </a>
+
+        <div>
+            <div class="slides fade">
+                <img src="img/3.png">
+                <h2 class="title">Tecnologia da Informação</h2>
+                <p class="content">TI é a ciência que engloba diversos estudos sobre as formas de armazenamento e
+                    transmissão de dados, e segurança e acesso às informações, utilizando softwares, hardwares,
+                    programas e bancos de dados que facilitam o manejo desses elementos.</p>
+            </div>
+
+            <div class="slides fade">
+                <img src="img/1.png">
+                <h2 class="title">Programação</h2>
+                <p class="content">Programação é o processo de escrita, teste e manutenção de um programa de computador,
+                    onde o programa é escrito a partir de linguagem de programação.</p>
+            </div>
+
+            <div class="slides fade">
+                <img src="img/4.png">
+                <h2 class="title">Inteligência Artificial</h2>
+                <p class="content">A IA é um campo da ciência da computação que se dedica ao estudo e ao desenvolvimento
+                    de máquinas e programas computacionais capazes de reproduzir o comportamento humano. <br /><br />
+                    <span>(Cinthia Lya)</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button class="button" onclick="addSlides(1)">Próximo</button>
+            <div class="dot-box">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
